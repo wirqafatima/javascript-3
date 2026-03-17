@@ -44,7 +44,7 @@ else{
    //CALCULATOR
   var num2 = 10;
   var num3 = 20;
-  var operation = "++";
+  var operation = "+";
   if(operation == "+"){
     console.log( num2 + num3);
   }

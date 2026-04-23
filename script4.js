@@ -8,11 +8,9 @@ console.log(sqr_root);
 let power=(Math.pow(5,3));
 console.log(power);
 //number guessing helper
-let generate =(Math.floor(Math.random()*10 ));
-const guess = Number(prompt("enter a number between 1 and 10"));
-if(guess==generate){
-    console.log("Correct match");
+let guessgame=Number(prompt("enter a number between 1 and 10"));
+let randomnumber=(Math.floor (Math.random()*10));
+while(guessgame!=randomnumber){
+     guessgame=Number(prompt("enter a number between 1 and 10"));
 }
-else{
-    console.log("Try again");
-}
+console.log("YOU WIN");
